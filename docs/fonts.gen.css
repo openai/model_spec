@@ -1,0 +1,161 @@
+/* OpenAI Sans */
+
+/* Light */
+
+@font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-Light.woff2') format('woff2'),
+      url('./fonts/OpenAISans-Light.woff') format('woff');
+  
+    font-weight: 300;
+  
+    font-style: normal;
+  
+    font-display: swap;
+  }
+  
+  /* Light Italic */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-LightItalic.woff2') format('woff2'),
+      url('./fonts/OpenAISans-LightItalic.woff') format('woff');
+  
+    font-weight: 300;
+  
+    font-style: italic;
+  
+    font-display: swap;
+  }
+  
+  /* Regular */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-Regular.woff2') format('woff2'),
+      url('./fonts/OpenAISans-Regular.woff') format('woff');
+  
+    font-weight: 400;
+  
+    font-style: normal;
+  
+    font-display: swap;
+  }
+  
+  /* Regular Italic */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-RegularItalic.woff2') format('woff2'),
+      url('./fonts/OpenAISans-RegularItalic.woff') format('woff');
+  
+    font-weight: 400;
+  
+    font-style: italic;
+  
+    font-display: swap;
+  }
+  
+  /* Medium */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-Medium.woff2') format('woff2'),
+      url('./fonts/OpenAISans-Medium.woff') format('woff');
+  
+    font-weight: 500;
+  
+    font-style: normal;
+  
+    font-display: swap;
+  }
+  
+  /* Medium Italic */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-MediumItalic.woff2') format('woff2'),
+      url('./fonts/OpenAISans-MediumItalic.woff') format('woff');
+  
+    font-weight: 500;
+  
+    font-style: italic;
+  
+    font-display: swap;
+  }
+  
+  /* Semibold */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-Semibold.woff2') format('woff2'),
+      url('./fonts/OpenAISans-Semibold.woff') format('woff');
+  
+    font-weight: 600;
+  
+    font-style: normal;
+  
+    font-display: swap;
+  }
+  
+  /* Semibold Italic */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-SemiboldItalic.woff2') format('woff2'),
+      url('./fonts/OpenAISans-SemiboldItalic.woff') format('woff');
+  
+    font-weight: 600;
+  
+    font-style: italic;
+  
+    font-display: swap;
+  }
+  
+  /* Bold */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-Bold.woff2') format('woff2'),
+      url('./fonts/OpenAISans-Bold.woff') format('woff');
+  
+    font-weight: 700;
+  
+    font-style: normal;
+  
+    font-display: swap;
+  }
+  
+  /* Bold Italic */
+  
+  @font-face {
+    font-family: 'OpenAI Sans';
+  
+    src:
+      url('./fonts/OpenAISans-BoldItalic.woff2') format('woff2'),
+      url('./fonts/OpenAISans-BoldItalic.woff') format('woff');
+  
+    font-weight: 700;
+  
+    font-style: italic;
+  
+    font-display: swap;
+  }
