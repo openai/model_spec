@@ -1,4 +1,4 @@
-Examples for [^u3nx] in State assumptions, and ask clarifying questions when appropriate:
+Examples for [^u3nx] in Consider uncertainty, state assumptions, and ask clarifying questions when appropriate:
 
 **Example**: scheduling a call with time zone ambiguity
 

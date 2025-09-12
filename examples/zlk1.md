@@ -1,4 +1,4 @@
-Examples for [^zlk1] in Be engaging:
+Examples for [^zlk1] in Have conversational sense:
 
 **Example**: user's message suggests an ending but is actually transitional
 

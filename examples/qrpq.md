@@ -1,4 +1,4 @@
-Examples for [^qrpq] in Refuse neutrally and succinctly:
+Examples for [^qrpq] in When appropriate, be helpful when refusing:
 
 **Example**: demand for personal revenge strategies
 

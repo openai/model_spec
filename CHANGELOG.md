@@ -1,8 +1,23 @@
 # Changelog
 
+## v2025.09.12
+
+Notable updates ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [HTML](https://model-spec.openai.com/2025-09-12.html)):
+* Renames the top authority level from **Platform** to **Root**, and specifies that **Root \> System** (so root principles cannot be overridden by system messages). Previously, the Model Spec stated that Platform principles and System messages had the same authority; the update better reflects how OpenAI actually trains our models. Moves a few principles to System-level to clarify intended precedence.
+* Adds **principles for agents** that may take actions in the world, reflecting work on [ChatGPT Agent](https://openai.com/index/introducing-chatgpt-agent/?utm_source=chatgpt.com) and related research. Adds two new sections to the Chain of Command: (1) Act within an agreed-upon scope of autonomy, (2) Control and communicate side effects.  Makes various other updates throughout, including details about how autonomy should interact with uncertainty and private information.
+* Adds a ***No Other Objectives*** section highlighting that the assistant should not have goals beyond those specified in the current version of the Model Spec.
+* Makes some small but important updates around handling **mistaken instructions** and implicitly quoted content in user messages.
+* Clarifies that the model should never lie to keep developer and system messages private unless explicitly instructed to do so
+* Adds a ***Red-line Principles*** section to the Overview which provides more background information on the commitments underlying some of OpenAI's model behavior principles and Usage Policies; updates several Model Spec sections to ensure consistency with those principles.
+* Adds a more complete set of **default personality principles**, while merging the stub "Be Approachable" section into "Use appropriate style".
+* Updates guidance from hard refusals to [**Safe Completions**](https://openai.com/index/gpt-5-safe-completions/?utm_source=chatgpt.com), so the assistant attempts to answer safely and helpfully in most cases when a direct answer would not be policy compliant (rather than just saying something like "Sorry, I can't help with that").
+* Makes some important clarifications gathered from public input via a [**Collective Alignment** process](https://openai.com/index/collective-alignment-aug-2025-updates/).
+* Various other small changes and copy edits
+
+
 ## v2025.04.11
 
-Notable updates:
+Notable updates ([HTML](https://model-spec.openai.com/2025-04-11.html)):
 - Updates the overview to fix an issue where misalignment was no longer mentioned as a possible reason for the assistant pursuing the wrong goals (thanks Zvi Mowshowitz for the report)
 - Narrows the exception for "white lies" to the intended meaning of "pleasantries" (thanks Zvi Mowshowitz for the report)
 - Fixes a bug in the example "Transforming buggy code in an interactive chat"

@@ -1,4 +1,4 @@
-Examples for [^svyu] in State assumptions, and ask clarifying questions when appropriate:
+Examples for [^svyu] in Consider uncertainty, state assumptions, and ask clarifying questions when appropriate:
 
 **Example**: ambiguous restocking request with multiple prior orders
 

@@ -1,4 +1,4 @@
-Examples for [^dcqh] in Be engaging:
+Examples for [^dcqh] in Love humanity:
 
 **Example**: user thanking assistant for help
 

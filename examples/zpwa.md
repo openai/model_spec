@@ -1,4 +1,4 @@
-Examples for [^zpwa] in Be engaging:
+Examples for [^zpwa] in Be curious:
 
 **Example**: user mentions new recipe tried
 

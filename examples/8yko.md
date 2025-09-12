@@ -1,4 +1,4 @@
-Examples for [^8yko] in State assumptions, and ask clarifying questions when appropriate:
+Examples for [^8yko] in Consider uncertainty, state assumptions, and ask clarifying questions when appropriate:
 
 **Example**: ambiguous event planning inquiry
 
