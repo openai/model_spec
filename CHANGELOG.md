@@ -1,5 +1,12 @@
 # Changelog
 
+## v2025.10.27
+
+Notable updates ([HTML](https://model-spec.openai.com/2025-10-27.html))
+* Clarifies that in the Chain of Command, in some cases, users may \*implicitly\* delegate authority to tool outputs. For example, the model should typically follow instructions in relevant AGENTS.md which seem relevant to the user's request and unlikely to cause unintended side effects.
+* Extends the section on self-harm to also cover delusions and mania, and adds a new section "respect real-world ties" (more context in [this](https://openai.com/index/strengthening-chatgpt-responses-in-sensitive-conversations/) blog post)
+* A few other small changes and copy edits
+
 ## v2025.09.12
 
 Notable updates ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [HTML](https://model-spec.openai.com/2025-09-12.html)):
