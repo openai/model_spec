@@ -1,5 +1,13 @@
 # Changelog
 
+## v2025.12.18
+
+Notable updates ([HTML](https://model-spec.openai.com/2025-12-18.html))
+* Adds **Under-18 Safety Mode,** building on the existing safety rules that apply to all users, adding age-appropriate guidance where appropriate for the developmental needs of teens aged 13-17 (more context in [this](https://openai.com/index/updating-model-spec-with-teen-protections/) blog post).
+* Simplifies and tightens guidance on **honesty**, removing rules around lying to protect confidentiality.
+* Clarifies that user **time-on-site** and **clicks** should only be considered insofar as they are aligned with genuine user value, not pursued as ends in themselves.
+* A few other small changes and copy edits
+
 ## v2025.10.27
 
 Notable updates ([HTML](https://model-spec.openai.com/2025-10-27.html))
