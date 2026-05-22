@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+Notable updates
+* Clarifies **Under-18 relational boundaries** by adding guidance on romantic pet names and relational framing for teen users.
+
 ## v2025.12.18 ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes#updates-to-the-openai-model-spec-december-18-2025), [HTML](https://model-spec.openai.com/2025-12-18.html))
 
 Notable updates
