@@ -3,12 +3,14 @@
 
 The Model Spec specifies desired behavior for the models underlying OpenAI's products (including our APIs).
 
-See the latest Model Spec rendered for human reading at [model-spec.openai.com](https://model-spec.openai.com/),
-read more about the Model Spec on the [OpenAI Blog](https://openai.com/index/sharing-the-latest-model-spec/), or
-check out the latest [Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes).
+Read the latest Model Spec at [model-spec.openai.com](https://model-spec.openai.com/),
+and explore previous updates and related blog posts in the [changelog](CHANGELOG.md).
+Learn more about the Spec's purpose and development in
+[Inside our approach to the Model Spec](https://openai.com/index/our-approach-to-the-model-spec/).
 
-This repository contains the [markdown source](model_spec.md) for the Model Spec and an archive of all released
-HTML versions of the Model Spec (starting from the second release on 2025-02-12).
+This repository contains the Markdown source for the [Model Spec](model_spec.md),
+together with an archive of released Model Spec
+HTML versions (starting from the second release on 2025-02-12).
 
 # License
 

@@ -1,5 +1,16 @@
 # Changelog
 
+## v2026.10.29 ([Blog](https://openai.com/index/updated-model-spec), [Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [HTML](https://model-spec.openai.com/2026-10-29.html))
+
+Notable updates
+
+* Reorganizes the Model Spec around five values: faithfulness to human intent, minimizing harm, honesty and transparency, human agency, and care. Updates the Overview and chain of command to explain how GPT should understand intent, act under uncertainty, and support users' longer-term goals while preserving human control.
+* Renames the subject of the Model Spec from “the assistant” to “GPT.”
+* Adds principles on strengthening users' ability to understand, choose, and act, and following relevant social norms. Makes “Control and communicate side effects” a user-level principle with clearer guidance on authorization and trade-offs. Adds explicit guidance on supporting human oversight and correction.
+* Adds “Consider context carefully,” with guidance on using context, memory, and personalization in relevant, proportionate ways while respecting privacy and user control.
+* Removes most detailed style guidance.
+* A few other small changes and copy edits.
+
 ## v2026.08.18 ([Release Notes](https://help.openai.com/en/articles/9624314-model-release-notes), [HTML](https://model-spec.openai.com/2026-08-18.html))
 
 Notable updates
