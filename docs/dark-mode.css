@@ -1,0 +1,107 @@
+/* Compatibility overrides for archived HTML with hard-coded light colors. */
+:root {
+  color-scheme: dark;
+  --page: #181818;
+  --panel: #242424;
+  --inset: #303033;
+  --text: #eeeeef;
+  --muted: #b7b7bb;
+  --border: #58585d;
+}
+
+body, .toc, .nav {
+  background-color: var(--page);
+  color: var(--text);
+}
+
+a, h5, h6, .main-title, .main-subtitle, .nav-top .current-section,
+.toc a.in-view, .toc a:hover, .message.assistant, .message.developer,
+.message.system, .prefix-context .message {
+  color: var(--text);
+}
+
+a { text-decoration-color: #919196; }
+a:hover { text-decoration-color: currentColor; }
+
+.date, .date-note a, .figure, .summary, blockquote p, .toc a,
+.file-type, .file-caption, .comment.unknown, .role-quality.unknown .quality-icon {
+  color: var(--muted);
+}
+
+.logo path, .chevron path { fill: currentColor; }
+
+.nav, table, th, td, hr, .file-preview { border-color: var(--border); }
+.conversation, .file-preview { background-color: var(--panel); }
+
+.private {
+  background-image: repeating-linear-gradient(135deg, var(--panel) 0 20px, transparent 20px 40px);
+}
+.private::before { color: var(--text); }
+
+.code-block, .prefix-context .message, .settings-badge, .authority,
+.authority_sidebar, .sensitive-asset, .text > .language-python,
+.text > .language-typescript {
+  background-color: var(--inset);
+  color: var(--text);
+}
+
+.variant, .quality { color: #e2bbab; }
+.quality.GOOD, .comment.good, .role-quality.good .quality-icon { color: #85d6a3; }
+.quality.OK, .comment.ok, .role-quality.ok .quality-icon { color: #ffb37d; }
+.quality.BAD, .comment.bad, .role-quality.bad .quality-icon { color: #ff97a5; }
+.exception, .recipient { color: #a7c6ff; }
+
+.wrap-assistant .message-body-container:is(.assistant, .tool).good { background-color: #253b2d; }
+.wrap-assistant .message-body-container:is(.assistant, .tool).ok { background-color: #403225; }
+.wrap-assistant .message-body-container:is(.assistant, .tool).bad { background-color: #432b30; }
+
+.admonition { background-color: #23364e; color: #d8e8ff; }
+.admonition a, .admonition a:hover { color: inherit; text-decoration-color: currentColor; }
+.u18-badge { background-color: #3a2d4b; color: #e1c9ff; }
+
+.model-spec-version-banner {
+  background: #3e3021;
+  color: #ffebcb;
+  border-color: #70583a;
+  box-shadow: none;
+}
+.model-spec-version-banner::before { background: none; }
+.model-spec-version-banner-title, .model-spec-version-banner-text { color: inherit; }
+.model-spec-version-banner-action--primary { background: #f6dfb8; color: #281d10; }
+.model-spec-version-banner-action--primary:hover { background: #fff0d8; }
+.model-spec-version-banner-action--secondary { background: #473827; color: #ffebcb; border-color: #917652; }
+.model-spec-version-banner-action--secondary:hover { background: #584431; border-color: #b49368; }
+
+/* Prism's default theme sets its own foreground, backgrounds and text shadows. */
+code[class*="language-"], pre[class*="language-"] { color: var(--text); text-shadow: none; }
+:not(pre) > code[class*="language-"], pre[class*="language-"] { background: var(--inset); }
+.token.comment, .token.prolog, .token.doctype, .token.cdata, .token.punctuation { color: var(--muted); }
+.token.property, .token.tag, .token.boolean, .token.number, .token.constant,
+.token.symbol, .token.deleted, .token.function, .token.class-name { color: #ffacb7; }
+.token.selector, .token.attr-name, .token.string, .token.char, .token.builtin,
+.token.inserted { color: #a7d99a; }
+.token.operator, .token.entity, .token.url, .language-css .token.string,
+.style .token.string { color: #ebc69b; background: transparent; }
+.token.atrule, .token.attr-value, .token.keyword { color: #a7c6ff; }
+.token.regex, .token.important, .token.variable { color: #efc186; }
+
+[data-model-spec-document] .document-navigation {
+  background: var(--panel);
+  border-color: var(--border);
+}
+[data-model-spec-document] .document-navigation a { color: var(--muted); }
+[data-model-spec-document] .document-navigation a[aria-current="page"] {
+  color: var(--text);
+  background: var(--inset);
+}
+[data-model-spec-document-panel="model_charter"] .model-charter-draft-notice {
+  background: #3e3021;
+  color: #ffebcb;
+  border-color: #917652;
+}
+
+@media (min-width: 1280px) {
+  .toc a {
+    opacity: 0.75;
+  }
+}
