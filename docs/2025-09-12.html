@@ -787,7 +787,7 @@ td {
 
 @media (min-width: 1536px) {
   .main {
-    padding-left: 230px;
+    margin-left: 170px;
   }
 
   .toc {
@@ -797,7 +797,7 @@ td {
 
 @media (min-width: 1280px) and (max-width: 1536px) {
   .main {
-    padding-left: 370px;
+    margin-left: 310px;
   }
 
   .toc {
@@ -807,11 +807,12 @@ td {
 
 @media (min-width: 1280px) {
   .main {
-    padding-right: 60px;
+    /* Examples extend into these gutters on both sides of the prose. */
+    padding-inline: 100px;
   }
 
   .nav {
-    padding: 18px 48px;
+    padding: 18px 0 18px 48px;
     bottom: 0;
   }
 
@@ -887,8 +888,7 @@ td {
   }
 
   .conversation {
-    width: calc(var(--content-width) + 200px);
-    margin-left: -100px;
+    margin-inline: -100px;
   }
 
   .message-wrapper .role-header {
@@ -896,7 +896,7 @@ td {
   }
 }
 
-@media (max-width: 1279px) {
+@media not all and (min-width: 1280px) {
   .main {
     padding: 24px;
     word-wrap: break-word;
